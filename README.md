@@ -1,49 +1,40 @@
 # Sistema_Alunos
 
-Claro! Aqui está um exemplo de um README para o programa que desenvolvemos:
+Este é um programa simples em C para cadastrar alunos, inserir notas, calcular médias e listar alunos cadastrados. Ele oferece as seguintes funcionalidades:
 
----
-
-# Sistema de Gerenciamento de Alunos
-
-Um programa simples em C para gerenciar informações de alunos, como nomes e notas.
-
-## Funcionalidades
-
-O programa oferece as seguintes funcionalidades:
-
-1. **Cadastrar um aluno:** Permite cadastrar um único aluno por vez, inserindo seu nome, nota da primeira avaliação (N1) e nota da segunda avaliação (N2).
-2. **Cadastrar N alunos:** Permite cadastrar vários alunos de uma vez, inserindo seus nomes, notas N1 e N2.
-3. **Listar alunos cadastrados:** Mostra os nomes e as notas dos alunos cadastrados.
-4. **Excluir aluno:** Permite excluir um aluno cadastrado com base em seu índice.
-5. **Inserir ou alterar notas de um aluno:** Permite inserir ou alterar as notas de um aluno com base em seu índice.
-6. **Listar alunos com notas e média:** Mostra os nomes, notas N1, notas N2 e médias dos alunos cadastrados.
-7. **Sair do programa:** Encerra a execução do programa.
+1. Cadastrar um único aluno ou vários alunos simultaneamente.
+2. Listar alunos cadastrados com suas respectivas notas.
+3. Excluir um aluno cadastrado.
+4. Inserir notas para um aluno específico.
+5. Alterar notas de um aluno existente.
+6. Listar todos os alunos com suas notas e média.
 
 ## Como usar
 
-1. Compile o programa usando um compilador C, como o GCC:
+1. Clone este repositório:
 
-   ```
-   gcc -o gerenciamento_alunos gerenciamento_alunos.c
-   ```
+```
+git clone https://github.com/denilsude/Sistema_Alunos.git
+```
 
-2. Execute o programa compilado:
+2. Compile o programa:
 
-   ```
-   ./gerenciamento_alunos
-   ```
+```
+gcc sistema_alunos.c -o sistema_alunos
+```
 
-3. Siga as instruções exibidas no console para utilizar as funcionalidades do programa.
+3. Execute o programa:
 
-## Contribuindo
+```
+./sistema_alunos
+```
 
-Se encontrar qualquer problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma [issue](https://github.com/seu-usuario/seu-repositorio/issues) ou enviar um [pull request](https://github.com/seu-usuario/seu-repositorio/pulls).
+4. Siga as instruções apresentadas no menu para usar as diferentes funcionalidades do programa.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar um problema ou tiver uma sugestão de melhoria, por favor, abra uma [issue](https://github.com/denilsude/Sistema_Alunos/issues) ou envie um pull request.
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-
----
-
-Você pode personalizar o README de acordo com suas necessidades específicas. Se precisar de mais alguma coisa, estou aqui para ajudar!
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
