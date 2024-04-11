@@ -31,6 +31,7 @@ gcc sistema_alunos.c -o sistema_alunos
 
 4. Siga as instruções apresentadas no menu para usar as diferentes funcionalidades do programa.
 
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você encontrar um problema ou tiver uma sugestão de melhoria, por favor, abra uma [issue](https://github.com/denilsude/Sistema_Alunos/issues) ou envie um pull request.
